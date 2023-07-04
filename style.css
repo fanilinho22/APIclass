@@ -1,0 +1,57 @@
+body {
+    background-color: #38B6FF;
+}
+#divinissimo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    
+  }
+  
+  #divinissimo h1 {
+    margin-bottom: 20px;
+    font-size: 50px; /* Tamanho da fonte do título */
+    color: whitesmoke;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.3), 0 0 20px rgba(0, 227, 255, 0.3), 0 0 35px rgba(0, 227, 255, 0.3), 0 0 40px rgba(0, 227, 255, 0.3), 0 0 50px rgba(0, 227, 255, 0.3), 0 0 75px rgba(0, 227, 255, 0.3); /* Ajuste as cores e tamanhos para um efeito mais suave */
+  }
+
+  #divinissimo h3 {
+    margin-bottom: 20px;
+    font-size: 28px; /* Tamanho da fonte do título */
+    color: black;
+  }
+  
+  #divinissimo input,
+  #divinissimo button {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: "Arial", sans-serif;
+    font-size: 28px; /* Tamanho da fonte do input e botão */
+    background-color: #FF52E3;
+  }
+
+  #divinissimo input {
+    padding: 10px 20px;
+    border: 2px solid black; /* Altere para a cor desejada */
+    color: whitesmoke
+  }
+
+  #divinissimo button {
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Adiciona um efeito de transição */
+    }
+
+  #divinissimo button:hover {
+    background-color: pink; /* Cor do botão ao passar o mouse */
+  }
+  
+  #divinissimo button:active {
+    background-color: lightblue; /* Cor do botão quando clicado */
+  }
+
+  
